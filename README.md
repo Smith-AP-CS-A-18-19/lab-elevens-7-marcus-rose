@@ -57,3 +57,7 @@ public static printCards(ElevensBoard board) {
   * e. Which one of the methods that you identified in question 4b above needs to call the `cardIndexes` method before calling the `containsPairSum11` and `containsJQK` methods? Why?
 
      The anotherPlayIsPossible() method needs to call the cardIndexes method before containsPairSum11 method so it can check to see if there are still the right amount of cards on the board that sum to 11. If the other method was called first, there would be no point because there could be an instance where the game might not be able to continue at all, since none of the cards on the board would sum to 11.
+
+## Feedback
+Very good
+20/20
